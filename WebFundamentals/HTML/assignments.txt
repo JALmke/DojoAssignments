@@ -1,0 +1,115 @@
+Last login: Mon Feb  6 20:25:44 on ttys000
+Jasons-MBP:~ jasonludtke$ ls
+Applications		Downloads		Music
+Creative Cloud Files	Dropbox			Pictures
+Desktop			Library			Public
+Documents		Movies
+Jasons-MBP:~ jasonludtke$ cd desktop
+Jasons-MBP:desktop jasonludtke$ pwd
+/Users/jasonludtke/desktop
+Jasons-MBP:desktop jasonludtke$ mkdir DojoAssignments
+Jasons-MBP:desktop jasonludtke$ pwd
+/Users/jasonludtke/desktop
+Jasons-MBP:desktop jasonludtke$ cd DojoAssignments
+Jasons-MBP:DojoAssignments jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments
+Jasons-MBP:DojoAssignments jasonludtke$ touch WebFundamentals
+Jasons-MBP:DojoAssignments jasonludtke$ touch Python
+Jasons-MBP:DojoAssignments jasonludtke$ touch MEAN
+Jasons-MBP:DojoAssignments jasonludtke$ touch Ruby
+Jasons-MBP:DojoAssignments jasonludtke$ touch iOS
+Jasons-MBP:DojoAssignments jasonludtke$ touch NetCore
+Jasons-MBP:DojoAssignments jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments
+Jasons-MBP:DojoAssignments jasonludtke$ rm -i NetCore
+remove NetCore? Y
+Jasons-MBP:DojoAssignments jasonludtke$ rm iOS
+Jasons-MBP:DojoAssignments jasonludtke$ rm MEAN
+Jasons-MBP:DojoAssignments jasonludtke$ rm Python
+Jasons-MBP:DojoAssignments jasonludtke$ rm Ruby
+Jasons-MBP:DojoAssignments jasonludtke$ rm WebFundamentals
+Jasons-MBP:DojoAssignments jasonludtke$ mkdir WebFundamentals
+Jasons-MBP:DojoAssignments jasonludtke$ mkdir Python
+Jasons-MBP:DojoAssignments jasonludtke$ mkdir MEAN
+Jasons-MBP:DojoAssignments jasonludtke$ mkdir Ruby
+Jasons-MBP:DojoAssignments jasonludtke$ mkdir iOS
+Jasons-MBP:DojoAssignments jasonludtke$ mkdir Netcore
+Jasons-MBP:DojoAssignments jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments
+Jasons-MBP:DojoAssignments jasonludtke$ cd iOS
+Jasons-MBP:iOS jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments/iOS
+Jasons-MBP:iOS jasonludtke$ touch about.txt
+Jasons-MBP:iOS jasonludtke$ cp iOS MEAN
+cp: iOS: No such file or directory
+Jasons-MBP:iOS jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments/iOS
+Jasons-MBP:iOS jasonludtke$ cp -rf iOS/ MEAN/
+cp: directory MEAN does not exist
+Jasons-MBP:iOS jasonludtke$ ls
+about.txt
+Jasons-MBP:iOS jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments/iOS
+Jasons-MBP:iOS jasonludtke$ cd ..
+Jasons-MBP:DojoAssignments jasonludtke$ cp -rf /iOS /MEAN
+cp: /iOS: No such file or directory
+Jasons-MBP:DojoAssignments jasonludtke$ cd iOS
+Jasons-MBP:iOS jasonludtke$ cp about.txt MEAN
+Jasons-MBP:iOS jasonludtke$ rm MEAN
+Jasons-MBP:iOS jasonludtke$ pbcopy < iOS
+-bash: iOS: No such file or directory
+Jasons-MBP:iOS jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments/iOS
+Jasons-MBP:iOS jasonludtke$ pbcopy <iOS
+-bash: iOS: No such file or directory
+Jasons-MBP:iOS jasonludtke$ pbcopy < about.txt
+Jasons-MBP:iOS jasonludtke$ cp about.txt MEAN
+Jasons-MBP:iOS jasonludtke$ rm MEAN
+Jasons-MBP:iOS jasonludtke$ cd ..
+Jasons-MBP:DojoAssignments jasonludtke$ cd MEAN
+Jasons-MBP:MEAN jasonludtke$ pbpaste
+Jasons-MBP:MEAN jasonludtke$ touch about.txt
+Jasons-MBP:MEAN jasonludtke$ cd ..
+Jasons-MBP:DojoAssignments jasonludtke$ cd Netcore
+Jasons-MBP:Netcore jasonludtke$ touch about.txt
+Jasons-MBP:Netcore jasonludtke$ cd ..
+Jasons-MBP:DojoAssignments jasonludtke$ cd Python
+Jasons-MBP:Python jasonludtke$ touch about.txt
+Jasons-MBP:Python jasonludtke$ cd ..
+Jasons-MBP:DojoAssignments jasonludtke$ cd Ruby
+Jasons-MBP:Ruby jasonludtke$ touch about.txt
+Jasons-MBP:Ruby jasonludtke$ cd .. webFundamentals
+Jasons-MBP:DojoAssignments jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments
+Jasons-MBP:DojoAssignments jasonludtke$ cd webFundamentals
+Jasons-MBP:webFundamentals jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments/webFundamentals
+Jasons-MBP:webFundamentals jasonludtke$ touch about.txt
+Jasons-MBP:webFundamentals jasonludtke$ mkdir Git
+Jasons-MBP:webFundamentals jasonludtke$ mkdir HTML
+Jasons-MBP:webFundamentals jasonludtke$ mkdir CSS
+Jasons-MBP:webFundamentals jasonludtke$ mkdir Javascript
+Jasons-MBP:webFundamentals jasonludtke$ cd Git
+Jasons-MBP:Git jasonludtke$ touch about.txt
+Jasons-MBP:Git jasonludtke$ pbcopy < about.txt
+Jasons-MBP:Git jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments/webFundamentals/Git
+Jasons-MBP:Git jasonludtke$ cd ..
+Jasons-MBP:webFundamentals jasonludtke$ cd HTML
+Jasons-MBP:HTML jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments/webFundamentals/HTML
+Jasons-MBP:HTML jasonludtke$  touch about.txt
+Jasons-MBP:HTML jasonludtke$ cd ..
+Jasons-MBP:webFundamentals jasonludtke$ cd CSS
+Jasons-MBP:CSS jasonludtke$ touch about.txt
+Jasons-MBP:CSS jasonludtke$ cd ..
+Jasons-MBP:webFundamentals jasonludtke$ cd Javascript
+Jasons-MBP:Javascript jasonludtke$ touch about.txt
+Jasons-MBP:Javascript jasonludtke$ cd ..
+Jasons-MBP:webFundamentals jasonludtke$ pwd
+/Users/jasonludtke/desktop/DojoAssignments/webFundamentals
+Jasons-MBP:webFundamentals jasonludtke$ cd HTML
+Jasons-MBP:HTML jasonludtke$ touch indentation.html
+Jasons-MBP:HTML jasonludtke$ ls -R
+about.txt		indentation.html
+Jasons-MBP:HTML jasonludtke$ 
